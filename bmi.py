@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-exercise = Image.open("C:\\Users\\Simeon\\Downloads\\pexels-ketut-subiyanto-4720236.jpg")
+exercise = Image.open("pexels-ketut-subiyanto-4720236.jpg")
 
 st.title(':blue[Simeon\'s BMI calculator]')
 st.image(exercise)
